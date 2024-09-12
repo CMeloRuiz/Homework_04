@@ -1,0 +1,84 @@
+header {
+    position: sticky;
+    top: 0;
+  }
+
+.menu {
+    color: rgb(83, 81, 81);
+    display: flex;
+    gap: 3em;
+}
+
+.boton:hover {
+    color: rgb(36, 36, 153);
+    text-decoration: underline;
+}
+
+.contenido-introduccion {
+    width: 45vw;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* ENCABEZADO */
+#encabezado {
+    background-color: white;
+    padding: 1em 5em 1em 5em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+
+/* INTRODUCCION */
+#introduccion {
+    background-color: rgb(13, 13, 36);
+    padding: 5em 5em 5em 8em;
+    color: white;
+}
+
+#titulo-introduccion {
+    font-size: 35px;
+}
+
+
+/* CONTENIDO */
+#contenido {
+    padding: 5em 5em 5em 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+#info-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* SERVICIOS */
+#servicios {
+    background-color: rgb(125, 146, 141);
+    padding: 5em 5em 5em 8em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* PIE PAGINA */
+#pie-pagina {
+    background-color: rgb(13, 13, 36);
+    color: white;
+    padding: 5em 5em 5em 8em;
+}

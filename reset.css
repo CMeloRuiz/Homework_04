@@ -1,0 +1,52 @@
+/* reset.css */
+
+/* Elimina el margen y el relleno de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina el estilo por defecto de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina el estilo por defecto de los botones */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+}
+
+/* Estilo por defecto para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Estilo por defecto para listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Estilo por defecto para tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Estilo por defecto para el campo de formulario */
+input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    margin: 0;
+}
+
+/* Estilo por defecto para el cuerpo */
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
